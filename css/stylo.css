@@ -1,0 +1,39 @@
+.pagina-principal{
+    background-image: url(../img/GestoriaWdoviak.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+
+}
+
+#menu a{
+    font-size: 16px;
+    
+    
+ }
+
+ .carousel-inner{
+    max-height: 39rem;
+ }
+
+ #titulo{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    margin: 5%;
+ }
+
+.nosotros{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50vh;
+    margin: 5%;
+}
