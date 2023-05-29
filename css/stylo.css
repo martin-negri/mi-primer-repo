@@ -1,10 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c3c9e7;
+    position: relative;
+    
+    min-height: 100vh;
+}
 .pagina-principal{
     background-image: url(../img/GestoriaWdoviak.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    overflow: hidden;
+    position: relative;
+    padding-bottom: 3em;
+    
+
+    
 
 }
 
@@ -14,26 +28,93 @@
     
  }
 
- .carousel-inner{
-    max-height: 39rem;
- }
-
+ 
  #titulo{
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 50vh;
-    margin: 5%;
+    margin-top: 25px;
+    box-sizing: border-box;
+    
  }
 
-.nosotros{
+.grid-container{
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 40px;
+    justify-content: center;
+    background-color: antiquewhite;
+    min-height: 100px;
     margin: 5%;
+    padding: 25px;
+    height: calc(100vh-100px-300px);
+    overflow: auto;
+    
+    
+}
+
+.bg-fondo-navbar{
+    
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(10, 10, 107);
+    
+    
+}
+
+fondo-navbar:hover{
+    background-color: rgb(3, 3, 31);
+
+}
+
+.bg-button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 18px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(10, 10, 107);
+    margin-block: 40px;
+}
+
+button:hover{
+    background-color: rgb(3, 3, 31);
+    transition: 400ms ease;
+
+}
+
+.nav-item:hover{
+    
+    transition: 400ms ease;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%)
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #121212;
+    color: white;
+    flex-wrap: wrap;
+    
+    bottom: 0%;
+    
+
 }
